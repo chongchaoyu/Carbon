@@ -1310,7 +1310,7 @@ class Carbon extends DateTime
      */
     public function toIso8601String()
     {
-        return $this->toAtomString();
+        return $this->format(static::ISO8601);
     }
 
     /**
